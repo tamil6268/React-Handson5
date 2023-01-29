@@ -36,15 +36,12 @@
   left: 140px;
   width: 200px;
   height: 50px;
-  background-color: transparent;
+  background-color: rgb(27, 27, 92);
+  color:white;
   border: 2px solid rgb(61, 54, 54);
   border-radius: 20px;
   padding: 10px;
   font-size: 18px;
-}
-#head button:hover{
-  background-color: rgb(27, 27, 92);
-  color:white;
 }
 #table1{
   display: flex;
