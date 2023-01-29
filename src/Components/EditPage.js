@@ -29,27 +29,24 @@ const EditPage = () => {
         navigate(-1);
     }
     return (
-        <div>
-            <div>
-                <label for="Name">Name 
+        <div id="row-1">
+            <div id="row-1">
+                <label for="Name">Name </label>
                 <input onChange={change} name='Name' placeholder={context.entries[index].Name} />
-                </label>
-                <label for="Name">Age  
+                <label for="Name">Age  </label>
                 <input onChange={change} name='Age' placeholder={context.entries[index].Age} />
-                </label>
             </div>
-            <div>
-            <label for="Name">Course  
+            <div id="row-1">
+            <label for="Name">Course   </label>
                 <input onChange={change} name='Course' placeholder={context.entries[index].Course} />
-                </label>
-                <label for="Name">Batch  
+                <label for="Name">Batch   </label>
                 <input onChange={change} name='Batch' placeholder={context.entries[index].Batch} />
-                </label>
             </div>
 
 
-            <div>
+            <div id="row-1">
                 <button onClick={update}>Update</button>
+                <button onClick={()=>{navigate(-1)}}>Back</button>
             </div>
         </div>
     )

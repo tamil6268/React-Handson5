@@ -30,16 +30,16 @@ const AddPage = () => {
             <div id="row-container">
                 <div id="row-1">
                     <label for="Name">Name </label><br/>
-                        <input  name='Name' type="text" value={inputData.Name} onChange={changeHandle} />
+                        <input  name='Name' placeholder='Enter Name' type="text" value={inputData.Name} onChange={changeHandle} />
                     <label for="Name">Age </label><br/>
-                        <input name='Age' type="number" value={inputData.Age} onChange={changeHandle} />
+                        <input name='Age' placeholder='Enter Age' type="number" value={inputData.Age} onChange={changeHandle} />
                 </div>
                 <div id="row-2">
                     <label for="Name">Course </label><br/>
-                        <input name='Course'
+                        <input name='Course' placeholder='EnterCourse'
                             type="text" value={inputData.Course} onChange={changeHandle} />
                     <label for="Name">Batch </label><br/>
-                        <input name='Batch' type="text" value={inputData.Batch} onChange={changeHandle}/>
+                        <input name='Batch' placeholder='Enter Batch' type="text" value={inputData.Batch} onChange={changeHandle}/>
                 </div>
 
 
