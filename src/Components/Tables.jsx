@@ -9,7 +9,7 @@ const Tables = () => {
         <div>
             <div id="head">
                 <h1>Students Details</h1>
-                <button><Link to="/AddPage">Add new student</Link></button>
+                <button><Link to="/AddPage" style={{textDecoration:"none",color:"white",background:"rgb(27, 27, 92)"}}>Add new student</Link></button>
             </div>
             <div>
                 <table border={1} cellSpacing={0.5}>
